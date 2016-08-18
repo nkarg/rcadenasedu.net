@@ -1,0 +1,6 @@
+c:\users\informatorio\documents\visual studio 2015\Projects\FirstAppRojoCadenas\FirstAppRojoCadenas\bin\Debug\FirstAppRojoCadenas.exe.config
+c:\users\informatorio\documents\visual studio 2015\Projects\FirstAppRojoCadenas\FirstAppRojoCadenas\bin\Debug\FirstAppRojoCadenas.exe
+c:\users\informatorio\documents\visual studio 2015\Projects\FirstAppRojoCadenas\FirstAppRojoCadenas\bin\Debug\FirstAppRojoCadenas.pdb
+c:\users\informatorio\documents\visual studio 2015\Projects\FirstAppRojoCadenas\FirstAppRojoCadenas\obj\Debug\FirstAppRojoCadenas.csprojResolveAssemblyReference.cache
+c:\users\informatorio\documents\visual studio 2015\Projects\FirstAppRojoCadenas\FirstAppRojoCadenas\obj\Debug\FirstAppRojoCadenas.exe
+c:\users\informatorio\documents\visual studio 2015\Projects\FirstAppRojoCadenas\FirstAppRojoCadenas\obj\Debug\FirstAppRojoCadenas.pdb
