@@ -17,23 +17,49 @@ namespace InformatorioPokedex.Data
             {
                 DatosPokemon.pokemons.Add(new Fuego(nombre, tipo, alias, peso, altura));
                 Console.WriteLine("Registrando Pokemón");
+                Console.WriteLine("BanderaF");
             } 
             else if (tipo == "Agua")
             {
                 DatosPokemon.pokemons.Add(new Agua(nombre, tipo, alias, peso, altura));
                 Console.WriteLine("Registrando Pokemón");
+                Console.WriteLine("BanderaA");
             }
             else
             {
                 DatosPokemon.pokemons.Add(new Planta(nombre, tipo, alias, peso, altura));
                 Console.WriteLine("Registrando Pokemón");
+                Console.WriteLine("BanderaP");
             }
 
         }
 
         public void mostrarTodos()
         {
-
+            foreach (Pokemon pika in DatosPokemon.pokemons)
+            {
+                Console.WriteLine("*** *** ***");
+                Console.WriteLine(pika.nombre);
+                Console.WriteLine(pika.tipo);
+                Console.WriteLine(pika.alias);
+                Console.WriteLine(pika.peso);
+                Console.WriteLine(pika.altura);
+                if (pika.tipo == "Agua")
+                {
+                    Agua agua = new Agua(pika.nombre, pika.tipo, pika.alias, pika.peso, pika.altura);
+                    Console.WriteLine(agua.chorroDeAgua());
+                }
+                else if (pika.tipo == "Fuego")
+                {
+                    Fuego fuego = new Fuego(pika.nombre, pika.tipo, pika.alias, pika.peso, pika.altura);
+                    Console.WriteLine(fuego.lanzallamas());
+                }
+                else
+                {
+                    Planta planta = new Planta(pika.nombre, pika.tipo, pika.alias, pika.peso, pika.altura);
+                    Console.WriteLine(planta.latigoSepa());
+                }
+            }
         }
     }
 }

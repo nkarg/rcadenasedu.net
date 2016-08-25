@@ -67,7 +67,17 @@ namespace InformatorioPokedex.Bussiness
                 throw new ErrorDeTipeo("El valor de altura ingresado no corresponde a un FLOAT");
             }
         }
-
+        public bool noVacio(IList<InformatorioPokedex.Data.Pokemon> lista)
+        {
+            if (InformatorioPokedex.Data.DatosPokemon.pokemons.Count() == 0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
 
         public void registrar(string nombre, string tipo, string alias, string peso, string altura)
         {
@@ -79,18 +89,28 @@ namespace InformatorioPokedex.Bussiness
                 validarRegistroAltura(altura);
                 float fpeso = float.Parse(peso);
                 float faltura = float.Parse(altura);
-                foreach (InformatorioPokedex.Data.Pokemon pika in InformatorioPokedex.Data.DatosPokemon.pokemons)
+                InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+                if (noVacio(InformatorioPokedex.Data.DatosPokemon.pokemons))
                 {
-                    if (nombre == pika.nombre)
+                    foreach (InformatorioPokedex.Data.Pokemon pika in InformatorioPokedex.Data.DatosPokemon.pokemons)
                     {
-                        Console.WriteLine("Este pokemón ya ha sido registrado");
-                    }
-                    else
-                    {
-                        InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
-                        metodo.registrarPokemon(nombre, tipo, alias, fpeso, faltura);
+                        if (nombre == pika.nombre)
+                        {
+                            Console.WriteLine("Este pokemón ya ha sido registrado");
+                        }
+                        else
+                        {
+                            metodo.registrarPokemon(nombre, tipo, alias, fpeso, faltura);
+                            Console.WriteLine("Hla");
+                        }
                     }
                 }
+                else
+                {
+                    metodo.registrarPokemon(nombre, tipo, alias, fpeso, faltura);
+                    Console.WriteLine("Hla");
+                }
+                       
             }
             catch (ErrorDeTipeo edt)
             {
@@ -114,10 +134,18 @@ namespace InformatorioPokedex.Bussiness
             //}
         }
 
-        public void valdidarMuestra()
+        
+        public void mostrar()
         {
-
+            if (noVacio(InformatorioPokedex.Data.DatosPokemon.pokemons))
+            {
+                Console.WriteLine("Todavia no has capturado ningun Pokemón");
+            }
+            else
+            {
+                InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+                metodo.mostrarTodos();
+            } 
         }
-        public void mostrar() { }
     }
 }
