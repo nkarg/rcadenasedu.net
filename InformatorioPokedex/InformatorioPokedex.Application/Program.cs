@@ -39,46 +39,66 @@ namespace InformatorioPokedex.Application
             Console.WriteLine("                        ░░░▀▄▄▀▀▄▄▀▀▄▄▄█▀\n\n\n");
             Console.WriteLine("Bienvenido al fantastico mundo de los pokemón!");
             Console.ReadKey();
-            Console.WriteLine("Desea usar la pokedex?: (S-N)");
+            Console.Write("Desea usar la pokedex? (S-N): ");
             string rpta = Console.ReadLine();
             rpta = rpta.ToUpper();
             while ((rpta != "S") && (rpta != "N"))
             {
-                Console.WriteLine("Debes ingresar una respuesta posible. S-N");
+                Console.Write("Debes ingresar una respuesta posible. S-N: ");
                 rpta = Console.ReadLine();
                 rpta = rpta.ToUpper();
-                Console.WriteLine(rpta);
             }
-            if (rpta == "S")
+
+            while (rpta == "S")
             {
-                Console.WriteLine("Que deseas hacer: \n1-Registrar 2-VerLista");
+                Console.Write("Que deseas hacer: \n1-Registrar 2-VerLista: ");
                 rpta = Console.ReadLine();
                 while ((rpta != "1") && (rpta != "2"))
                 {
-                    Console.WriteLine("Debes ingresar una respuesta posible. 1-2");
+                    Console.Write("Debes ingresar una respuesta posible. 1-2: ");
                     rpta = Console.ReadLine();
                 }
                 if (rpta == "1")
                 {
-                    Console.WriteLine("Bienvenido al sistema de Registro Pokemón \n Ahora vamos a registrar un nuevo Pokemón: ");
-                    Console.WriteLine("Por favor ingresa el Tipo: Fuego, Agua, Planta");
+                    Console.WriteLine("Bienvenido al sistema de Registro Pokemón de la liga Kanto \n Ahora vamos a registrar un nuevo Pokemón: ");
+                    Console.Write("Por favor ingresa el Nombre del pokemon: \nCharmander - Squartle - Bulbasaur: ");
+                    string nombre = Console.ReadLine();
+                    Console.Write("Por favor ingresa el Tipo: \nFuego, Agua, Planta: ");
                     string tipo = Console.ReadLine();
-                    Console.WriteLine("Por favor ingresa el Alias: ");
+                    Console.Write("Por favor ingresa el Alias: ");
                     string alias = Console.ReadLine();
-                    Console.WriteLine("Por favor ingresa el Peso del pokemón: ");
-                    float peso = float.Parse(Console.ReadLine()); 
-                    Console.WriteLine("Por favor ingresa la Altura del pokemón: ");
-                    float altura = float.Parse(Console.ReadLine());
-                    pokedex.registrar(tipo, alias, peso, altura);
-                    Console.WriteLine("RegistroValidado");
+                    Console.Write("Por favor ingresa el Peso del pokemón: ");
+                    string peso = Console.ReadLine();
+                    Console.Write("Por favor ingresa la Altura del pokemón: ");
+                    string altura = Console.ReadLine();
+                    pokedex.registrar(nombre, tipo, alias, peso, altura);
+                    Console.WriteLine("...\n");
                     Console.ReadKey();
+                    Console.Write("Desea seguir utilizando la Pokédex? S-N: ");
+                    rpta = Console.ReadLine();
+                    rpta = rpta.ToUpper();
+                    while ((rpta != "S") && (rpta != "N"))
+                    {
+                        Console.Write("Debes ingresar una respuesta posible. S-N: ");
+                        rpta = Console.ReadLine();
+                        rpta = rpta.ToUpper();
+                    }
                 }
                 else
                 {
                     pokedex.mostrar();
+                    Console.Write("Desea seguir utilizando la Pokédex? S-N: ");
+                    rpta = Console.ReadLine();
+                    rpta = rpta.ToUpper();
+                    while ((rpta != "S") && (rpta != "N"))
+                    {
+                        Console.Write("Debes ingresar una respuesta posible. S-N: ");
+                        rpta = Console.ReadLine();
+                        rpta = rpta.ToUpper();
+                    }
                 }
             }
-            else
+            if (rpta == "N")
             {
                 Console.Clear();
                 Console.WriteLine("Vuelve para convertirte en un MAESTRO");
@@ -105,9 +125,6 @@ namespace InformatorioPokedex.Application
                 Console.WriteLine("Atrapalos YA! PO-KE-MÓN");
                 Console.ReadKey();
             }
-
-
-
         }
     }
 }

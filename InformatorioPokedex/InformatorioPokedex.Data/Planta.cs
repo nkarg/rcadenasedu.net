@@ -8,7 +8,7 @@ namespace InformatorioPokedex.Data
 {
     class Planta: Pokemon
     {
-        public Planta(string var_tipo, string var_alias, float var_peso, float var_altura) : base(var_tipo, var_alias, var_peso, var_altura)
+        public Planta(string var_nombre, string var_tipo, string var_alias, float var_peso, float var_altura) : base(var_nombre, var_tipo, var_alias, var_peso, var_altura)
         {
 
         }

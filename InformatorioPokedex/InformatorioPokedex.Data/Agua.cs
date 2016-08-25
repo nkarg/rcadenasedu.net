@@ -8,7 +8,7 @@ namespace InformatorioPokedex.Data
 {
     public class Agua: Pokemon
     {
-        public Agua(string var_tipo, string var_alias, float var_peso, float var_altura):base(var_tipo, var_alias, var_peso, var_altura)
+        public Agua(string var_nombre, string var_tipo, string var_alias, float var_peso, float var_altura):base(var_nombre, var_tipo, var_alias, var_peso, var_altura)
         {
 
         }

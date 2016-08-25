@@ -27,45 +27,91 @@ namespace InformatorioPokedex.Bussiness
                 throw new ErrorDeTipeo("Debes ingresar bien el tipo Fuego-Agua-Planta");
             }
         }
+
+        public void validarRegistroNombre(string resp)
+        {
+            
+            if ((resp == "Charmander") || (resp == "Squartle") || (resp == "Bulbasaur"))
+            {
+
+            }
+            else
+            {
+                throw new ErrorDeTipeo("Debes ingresar bien un nombre Pokemón Charmander - Squartle - Bulbasaur");
+            }
+        }
         
-        //public void validarRegistroPeso(float resp)
-        //{
-        //    float x = 1;
-        //    if (Object.ReferenceEquals(resp.GetType(),x.GetType()))
-        //    {
+        public void validarRegistroPeso(string resp)
+        {
+            float tresp;
+            bool condicion = float.TryParse(resp, out tresp);
+            if (condicion)
+            {
 
-        //    }
-        //    else
-        //    {
-        //        throw new ErrorDeTipeo("Debes ingresar bien un numero Real");
-        //    }
-        //}
-        //public void validarRegistroAltura(float resp)
-        //{
-        //    float x = 1;
-        //    if (Object.ReferenceEquals(resp.GetType(), x.GetType()))
-        //    {
+            }
+            else
+            {
+                throw new ErrorDeTipeo("El valor de peso ingresado no corresponde a un FLOAT");
+            }
+        }
+        public void validarRegistroAltura(string resp)
+        {
+            float tresp;
+            bool condicion = float.TryParse(resp, out tresp);
+            if (condicion)
+            {
 
-        //    }
-        //    else
-        //    {
-        //        throw new ErrorDeTipeo("Debes ingresar bien un numero Real");
-        //    }
-        //}
+            }
+            else
+            {
+                throw new ErrorDeTipeo("El valor de altura ingresado no corresponde a un FLOAT");
+            }
+        }
 
-        public void registrar(string tipo, string alias, float peso, float altura)
+
+        public void registrar(string nombre, string tipo, string alias, string peso, string altura)
         {
             try
             {
+                validarRegistroNombre(nombre);
                 validarRegistroTipo(tipo);
-                //validarRegistroPeso(peso);
-                //validarRegistroAltura(altura);
-
+                validarRegistroPeso(peso);
+                validarRegistroAltura(altura);
+                float fpeso = float.Parse(peso);
+                float faltura = float.Parse(altura);
+                foreach (InformatorioPokedex.Data.Pokemon pika in InformatorioPokedex.Data.DatosPokemon.pokemons)
+                {
+                    if (nombre == pika.nombre)
+                    {
+                        Console.WriteLine("Este pokemón ya ha sido registrado");
+                    }
+                    else
+                    {
+                        InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+                        metodo.registrarPokemon(nombre, tipo, alias, fpeso, faltura);
+                    }
+                }
             }
             catch (ErrorDeTipeo edt)
             {
                 Console.WriteLine(edt.Message);
             }
+            //try
+            //{
+            //    float tpeso = float.Parse(peso);
+            //}
+            //catch (ErrorDeTipeo edt)
+            //{
+            //    throw edt = new ErrorDeTipeo("El valor ingresado en el peso no es FLOAT.");
+            //}
+            //try
+            //{
+            //    float taltura = float.Parse(altura);
+            //}
+            //catch (ErrorDeTipeo edt)
+            //{
+            //    throw edt = new ErrorDeTipeo("El valor ingresado en la altura no es FLOAT");
+            //}
         }
 
         public void valdidarMuestra()

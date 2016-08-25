@@ -3,3 +3,8 @@ C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\InformatorioPokedex\Infor
 C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.pdb
 C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.dll
 C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.csprojResolveAssemblyReference.cache
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.pdb

@@ -9,3 +9,13 @@ C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\InformatorioPokedex\Infor
 C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.csprojResolveAssemblyReference.cache
 C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.exe
 C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe.config
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.exe
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Bussiness.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Data.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Bussiness.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Data.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.csprojResolveAssemblyReference.cache
