@@ -51,7 +51,7 @@ namespace InformatorioPokedex.Application
 
             while (rpta == "S")
             {
-                Console.Write("Que deseas hacer: \n1-Registrar 2-VerLista: ");
+                Console.Write("\nQue deseas hacer: \n1-Registrar 2-VerLista: ");
                 rpta = Console.ReadLine();
                 while ((rpta != "1") && (rpta != "2"))
                 {
@@ -60,12 +60,12 @@ namespace InformatorioPokedex.Application
                 }
                 if (rpta == "1")
                 {
-                    Console.WriteLine("Bienvenido al sistema de Registro Pokemón de la liga Kanto \n Ahora vamos a registrar un nuevo Pokemón: ");
-                    Console.Write("Por favor ingresa el Nombre del pokemon: \nCharmander - Squartle - Bulbasaur: ");
+                    Console.WriteLine("\nBienvenido al sistema de Registro Pokemón de la liga Kanto \nAhora vamos a registrar un nuevo Pokemón: ");
+                    Console.Write("\nPor favor ingresa el Nombre del pokemon: \nCharmander - Squartle - Bulbasaur: ");
                     string nombre = Console.ReadLine();
-                    Console.Write("Por favor ingresa el Tipo: \nFuego, Agua, Planta: ");
+                    Console.Write("\nPor favor ingresa el Tipo: \nFuego, Agua, Planta: ");
                     string tipo = Console.ReadLine();
-                    Console.Write("Por favor ingresa el Alias: ");
+                    Console.Write("\nPor favor ingresa el Alias: ");
                     string alias = Console.ReadLine();
                     Console.Write("Por favor ingresa el Peso del pokemón: ");
                     string peso = Console.ReadLine();

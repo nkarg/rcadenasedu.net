@@ -16,20 +16,20 @@ namespace InformatorioPokedex.Data
             if (tipo == "Fuego")
             {
                 DatosPokemon.pokemons.Add(new Fuego(nombre, tipo, alias, peso, altura));
-                Console.WriteLine("Registrando Pokemón");
-                Console.WriteLine("BanderaF");
+                Console.WriteLine("\nRegistrando Pokemón");
+                Console.WriteLine("NuevoFuego");
             } 
             else if (tipo == "Agua")
             {
                 DatosPokemon.pokemons.Add(new Agua(nombre, tipo, alias, peso, altura));
                 Console.WriteLine("Registrando Pokemón");
-                Console.WriteLine("BanderaA");
+                Console.WriteLine("nuevoAgua");
             }
             else
             {
                 DatosPokemon.pokemons.Add(new Planta(nombre, tipo, alias, peso, altura));
                 Console.WriteLine("Registrando Pokemón");
-                Console.WriteLine("BanderaP");
+                Console.WriteLine("nuevoPlanta");
             }
 
         }
@@ -38,12 +38,13 @@ namespace InformatorioPokedex.Data
         {
             foreach (Pokemon pika in DatosPokemon.pokemons)
             {
-                Console.WriteLine("*** *** ***");
-                Console.WriteLine(pika.nombre);
-                Console.WriteLine(pika.tipo);
-                Console.WriteLine(pika.alias);
-                Console.WriteLine(pika.peso);
-                Console.WriteLine(pika.altura);
+                Console.WriteLine("*** STATS ***");
+                Console.WriteLine("Nombre: "+ pika.nombre);
+                Console.WriteLine("Tipo: " + pika.tipo);
+                Console.WriteLine("Alias: " + pika.alias);
+                Console.WriteLine("Peso: " + pika.peso + "kg");
+                Console.WriteLine("Altura: " + pika.altura +"cm");
+                Console.WriteLine("**AtaqueEspecial**");
                 if (pika.tipo == "Agua")
                 {
                     Agua agua = new Agua(pika.nombre, pika.tipo, pika.alias, pika.peso, pika.altura);
@@ -59,6 +60,7 @@ namespace InformatorioPokedex.Data
                     Planta planta = new Planta(pika.nombre, pika.tipo, pika.alias, pika.peso, pika.altura);
                     Console.WriteLine(planta.latigoSepa());
                 }
+                Console.WriteLine("*** *** ***\n");
             }
         }
     }
