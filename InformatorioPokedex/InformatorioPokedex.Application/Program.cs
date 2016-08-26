@@ -61,7 +61,7 @@ namespace InformatorioPokedex.Application
                 if (rpta == "1")
                 {
                     Console.WriteLine("\nBienvenido al sistema de Registro Pokemón de la liga Kanto \nAhora vamos a registrar un nuevo Pokemón: ");
-                    Console.Write("\nPor favor ingresa el Nombre del pokemon: \nCharmander - Squartle - Bulbasaur: ");
+                    Console.Write("\nPor favor ingresa el Nombre del pokemon: \nCharmander - Squirtle - Bulbasaur: ");
                     string nombre = Console.ReadLine();
                     Console.Write("\nPor favor ingresa el Tipo: \nFuego, Agua, Planta: ");
                     string tipo = Console.ReadLine();

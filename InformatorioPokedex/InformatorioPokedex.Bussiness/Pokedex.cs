@@ -31,13 +31,13 @@ namespace InformatorioPokedex.Bussiness
         public void validarRegistroNombre(string resp)
         {
             
-            if ((resp == "Charmander") || (resp == "Squartle") || (resp == "Bulbasaur"))
+            if ((resp == "Charmander") || (resp == "Squirtle") || (resp == "Bulbasaur"))
             {
 
             }
             else
             {
-                throw new ErrorDeTipeo("\nDebes ingresar bien un nombre Pokemón Charmander - Squartle - Bulbasaur");
+                throw new ErrorDeTipeo("\nDebes ingresar bien un nombre Pokemón Charmander - Squirtle - Bulbasaur");
             }
         }
         

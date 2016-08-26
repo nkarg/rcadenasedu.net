@@ -32,5 +32,21 @@ namespace InformatorioPokedex.Data
         {
             return "pokemon ha usado GRUÑIDO!! resistencia del enemigo ha bajado";
         }
+
+        public string descripcion(string name)
+        {
+            if (name == "Charmander")
+            {
+                return "La llama que tiene en la punta de la cola arde según sus sentimientos.\nLlamea levemente cuando está alegre y arde vigorosamente cuando está enfadado.";
+            }
+            else if(name == "Squirtle")
+            {
+                return "El caparazón de Squirtle no le sirve de protección únicamente. \nSu forma redondeada y las hendiduras que tiene le ayudan a deslizarse en el agua y le permiten nadar a gran velocidad.";
+            }
+            else
+            {
+                return "A Bulbasaur es fácil verle echándose una siesta al sol. \nLa semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol.";
+            }
+        }
     }
 }

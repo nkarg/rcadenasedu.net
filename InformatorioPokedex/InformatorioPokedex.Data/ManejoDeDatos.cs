@@ -40,6 +40,7 @@ namespace InformatorioPokedex.Data
             {
                 Console.WriteLine("*** STATS ***");
                 Console.WriteLine("Nombre: "+ pika.nombre);
+                Console.WriteLine("Descripcion: " + pika.descripcion(pika.nombre));
                 Console.WriteLine("Tipo: " + pika.tipo);
                 Console.WriteLine("Alias: " + pika.alias);
                 Console.WriteLine("Peso: " + pika.peso + "kg");
