@@ -22,13 +22,13 @@ namespace InformatorioPokedex.Data
             else if (tipo == "Agua")
             {
                 DatosPokemon.pokemons.Add(new Agua(nombre, tipo, alias, peso, altura));
-                Console.WriteLine("Registrando Pokemón");
+                Console.WriteLine("\nRegistrando Pokemón");
                 Console.WriteLine("nuevoAgua");
             }
             else
             {
                 DatosPokemon.pokemons.Add(new Planta(nombre, tipo, alias, peso, altura));
-                Console.WriteLine("Registrando Pokemón");
+                Console.WriteLine("\nRegistrando Pokemón");
                 Console.WriteLine("nuevoPlanta");
             }
 

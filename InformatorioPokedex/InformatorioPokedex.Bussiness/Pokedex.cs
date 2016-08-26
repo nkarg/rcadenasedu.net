@@ -24,7 +24,7 @@ namespace InformatorioPokedex.Bussiness
             }
             else
             {
-                throw new ErrorDeTipeo("Debes ingresar bien el tipo Fuego-Agua-Planta");
+                throw new ErrorDeTipeo("\nDebes ingresar bien el tipo Fuego-Agua-Planta");
             }
         }
 
