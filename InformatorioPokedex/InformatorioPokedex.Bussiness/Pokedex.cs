@@ -40,6 +40,28 @@ namespace InformatorioPokedex.Bussiness
                 throw new ErrorDeTipeo("\nDebes ingresar bien un nombre Pokemón Charmander - Squirtle - Bulbasaur");
             }
         }
+
+        public void validarRegistroNameTipe(string resp1, string resp2)
+        {
+            if ((resp1 == "Charmander") && (resp2 != "Fuego"))
+            {
+                throw new ErrorDeTipeo("\n" + resp1 + " No es de tipo " + resp2 + " Es de tipo Fuego" );
+            }
+            else if((resp1 == "Squirtle") && (resp2 != "Agua"))
+            {
+                throw new ErrorDeTipeo("\n" + resp1 + " No es de tipo " + resp2 + " Es de tipo Agua");
+            }
+            else if((resp1 == "Bulbasaur") && (resp2 != "Planta"))
+            {
+                throw new ErrorDeTipeo("\n" + resp1 + " No es de tipo " + resp2 + " Es de tipo Planta");
+            }
+            else
+            {
+
+            }
+
+                   
+        }
         
         public void validarRegistroPeso(string resp)
         {
@@ -85,6 +107,7 @@ namespace InformatorioPokedex.Bussiness
             {
                 validarRegistroNombre(nombre);
                 validarRegistroTipo(tipo);
+                validarRegistroNameTipe(nombre, tipo);
                 validarRegistroPeso(peso);
                 validarRegistroAltura(altura);
                 float fpeso = float.Parse(peso);
@@ -95,7 +118,7 @@ namespace InformatorioPokedex.Bussiness
                     int flag = 0;
                     foreach (InformatorioPokedex.Data.Pokemon pika in InformatorioPokedex.Data.DatosPokemon.pokemons)
                     {
-                        if (nombre == pika.nombre)
+                        if (alias == pika.alias)
                         {
                             Console.WriteLine("\nEste pokemón ya ha sido registrado");
                             flag = 1;
