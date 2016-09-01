@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F9F6F4FB-FF99-4DFE-8F37-6372724A7586}</ProjectGuid>
+    <ProjectGuid>{3AA7C7FC-F9B0-465E-B2CE-2C0D53D91E97}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>InformatorioPokedex.Data</RootNamespace>
-    <AssemblyName>InformatorioPokedex.Data</AssemblyName>
+    <RootNamespace>InformatorioPokedex.Bussiness</RootNamespace>
+    <AssemblyName>InformatorioPokedex.Bussiness</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,32 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agua.cs" />
-    <Compile Include="DatosPokemon.cs" />
-    <Compile Include="Interfaces2\Legendary.cs" />
-    <Compile Include="Interfaces\IBug.cs" />
-    <Compile Include="Interfaces\IDark.cs" />
-    <Compile Include="Interfaces\IDragon.cs" />
-    <Compile Include="Interfaces\IElectric.cs" />
-    <Compile Include="Interfaces\IFairy.cs" />
-    <Compile Include="Fuego.cs" />
-    <Compile Include="Interfaces\IFighting.cs" />
-    <Compile Include="Interfaces\IFire.cs" />
-    <Compile Include="Interfaces\IFlying.cs" />
-    <Compile Include="Interfaces\IGhost.cs" />
-    <Compile Include="Interfaces\IGrass.cs" />
-    <Compile Include="Interfaces\IGround.cs" />
-    <Compile Include="Interfaces\IIce.cs" />
-    <Compile Include="Interfaces\INormal.cs" />
-    <Compile Include="Interfaces\IPoison.cs" />
-    <Compile Include="Interfaces\IPsychical.cs" />
-    <Compile Include="Interfaces\IRock.cs" />
-    <Compile Include="Interfaces\ISteel.cs" />
-    <Compile Include="Interfaces\IWater.cs" />
-    <Compile Include="ManejoDeDatos.cs" />
-    <Compile Include="Planta.cs" />
-    <Compile Include="Pokemon.cs" />
+    <Compile Include="Pokedex.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InformatorioPokedex.Data\InformatorioPokedex.Data.csproj">
+      <Project>{f9f6f4fb-ff99-4dfe-8f37-6372724a7586}</Project>
+      <Name>InformatorioPokedex.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

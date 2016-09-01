@@ -39,31 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agua.cs" />
-    <Compile Include="DatosPokemon.cs" />
-    <Compile Include="Interfaces2\Legendary.cs" />
-    <Compile Include="Interfaces\IBug.cs" />
-    <Compile Include="Interfaces\IDark.cs" />
-    <Compile Include="Interfaces\IDragon.cs" />
-    <Compile Include="Interfaces\IElectric.cs" />
-    <Compile Include="Interfaces\IFairy.cs" />
-    <Compile Include="Fuego.cs" />
-    <Compile Include="Interfaces\IFighting.cs" />
-    <Compile Include="Interfaces\IFire.cs" />
-    <Compile Include="Interfaces\IFlying.cs" />
-    <Compile Include="Interfaces\IGhost.cs" />
-    <Compile Include="Interfaces\IGrass.cs" />
-    <Compile Include="Interfaces\IGround.cs" />
-    <Compile Include="Interfaces\IIce.cs" />
-    <Compile Include="Interfaces\INormal.cs" />
-    <Compile Include="Interfaces\IPoison.cs" />
-    <Compile Include="Interfaces\IPsychical.cs" />
-    <Compile Include="Interfaces\IRock.cs" />
-    <Compile Include="Interfaces\ISteel.cs" />
-    <Compile Include="Interfaces\IWater.cs" />
-    <Compile Include="ManejoDeDatos.cs" />
-    <Compile Include="Planta.cs" />
-    <Compile Include="Pokemon.cs" />
+    <Compile Include="PokemonData.cs" />
+    <Compile Include="Pokemons\PokemonType.cs" />
+    <Compile Include="Pokemons\Water.cs" />
+    <Compile Include="Pokemons\Fire.cs" />
+    <Compile Include="DataManager.cs" />
+    <Compile Include="Pokemons\Pokemon.cs" />
+    <Compile Include="Pokemons\Grass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

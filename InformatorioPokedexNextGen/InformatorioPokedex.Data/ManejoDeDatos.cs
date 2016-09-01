@@ -46,6 +46,7 @@ namespace InformatorioPokedex.Data
                 Console.WriteLine("Peso: " + pika.peso + "kg");
                 Console.WriteLine("Altura: " + pika.altura +"cm");
                 Console.WriteLine("**AtaqueEspecial**");
+
                 if (pika.tipo == "Agua")
                 {
                     Agua agua = new Agua(pika.nombre, pika.tipo, pika.alias, pika.peso, pika.altura);
