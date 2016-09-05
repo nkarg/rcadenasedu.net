@@ -61,9 +61,9 @@ namespace InformatorioPokedex.Application
                 if (rpta == "1")
                 {
                     Console.WriteLine("\nBienvenido al sistema de Registro Pokemón de la liga Kanto \nAhora vamos a registrar un nuevo Pokemón: ");
-                    Console.Write("\nPor favor ingresa el Nombre del pokemon: \nCharmander - Squirtle - Bulbasaur: ");
-                    string nombre = Console.ReadLine();
-                    Console.Write("\nPor favor ingresa el Tipo: \nFuego, Agua, Planta: ");
+                    Console.Write("\nPor favor ingresa el N° del pokemon: ");
+                    string numero = Console.ReadLine();
+                    Console.Write("\nPor favor ingresa el Tipo: ");
                     string tipo = Console.ReadLine();
                     Console.Write("\nPor favor ingresa el Alias: ");
                     string alias = Console.ReadLine();
@@ -71,7 +71,7 @@ namespace InformatorioPokedex.Application
                     string peso = Console.ReadLine();
                     Console.Write("Por favor ingresa la Altura del pokemón: ");
                     string altura = Console.ReadLine();
-                    pokedex.registrar(nombre, tipo, alias, peso, altura);
+                    pokedex.registrar(numero, tipo, alias, peso, altura);
                     Console.WriteLine("...\n");
                     Console.ReadKey();
                     Console.Write("Desea seguir utilizando la Pokédex? S-N: ");

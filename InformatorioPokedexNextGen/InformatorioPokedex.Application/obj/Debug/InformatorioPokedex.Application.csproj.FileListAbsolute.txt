@@ -22,3 +22,6 @@ C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedex\
 C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedexNextGen\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe.config
 C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedexNextGen\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.exe
 C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\InformatorioPokedexNextGen\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.pdb
+C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\InformatorioPokedexNextGen\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe.config
+C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\InformatorioPokedexNextGen\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.exe
+C:\Users\USUARIO\Documents\Visual Studio 2015\Projects\InformatorioPokedexNextGen\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.pdb

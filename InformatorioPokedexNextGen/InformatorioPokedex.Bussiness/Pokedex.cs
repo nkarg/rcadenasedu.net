@@ -41,7 +41,21 @@ namespace InformatorioPokedex.Bussiness
             }
         }
 
-        public void validarRegistroNameTipe(string resp1, string resp2)
+        public void validateName(string resp)
+        {
+            int tresp;
+            bool condicion = int.TryParse(resp, out tresp);
+            if (condicion)
+            {
+
+            }
+            else
+            {
+                throw new ErrorDeTipeo("\nEl valor de ID ingresado no corresponde a un INT");
+            }
+        }
+
+        public void validarRegistroNameType(string resp1, string resp2)
         {
             if ((resp1 == "Charmander") && (resp2 != "Fuego"))
             {
@@ -107,7 +121,7 @@ namespace InformatorioPokedex.Bussiness
             {
                 validarRegistroNombre(nombre);
                 validarRegistroTipo(tipo);
-                validarRegistroNameTipe(nombre, tipo);
+                validarRegistroNameType(nombre, tipo);
                 validarRegistroPeso(peso);
                 validarRegistroAltura(altura);
                 float fpeso = float.Parse(peso);
@@ -159,6 +173,46 @@ namespace InformatorioPokedex.Bussiness
             //}
         }
 
+        public void register(string numero, string tipo, string alias, string peso, string altura)
+        {
+            try
+            {
+                validateName(numero);
+                validarRegistroPeso(peso);
+                validarRegistroAltura(altura);
+                int fnumero = int.Parse(numero);
+                float fpeso = float.Parse(peso);
+                float faltura = float.Parse(altura);
+                InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+                if (noVacio(InformatorioPokedex.Data.DatosPokemon.pokemons))
+                {
+                    int flag = 0;
+                    foreach (InformatorioPokedex.Data.Pokemon pika in InformatorioPokedex.Data.DatosPokemon.pokemons)
+                    {
+                        if (alias == pika.alias)
+                        {
+                            Console.WriteLine("\nEste pokemón ya ha sido registrado");
+                            flag = 1;
+                        }
+                    }
+                    if (flag == 0)
+                    {
+                        metodo.registrarPokemon(numero, tipo, alias, fpeso, faltura);
+                        Console.WriteLine("nuevoRegistro++");
+                    }
+                }
+                else
+                {
+                    metodo.registrarPokemon(numero, tipo, alias, fpeso, faltura);
+                    Console.WriteLine("registro++");
+                }
+
+            }
+            catch (ErrorDeTipeo edt)
+            {
+                Console.WriteLine(edt.Message);
+            }
+        }
 
         public void mostrar()
         {
@@ -188,67 +242,80 @@ namespace InformatorioPokedex.Bussiness
 
         public void searchByName(string name)
         {
-
+            InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+            metodo.returnList().Where<x =>
         }
 
         public void searchByAlias(string alias)
         {
-
+            InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+            IList<InformatorioPokedex.Data.Pokemon> miLista = metodo.returnList();
         }
 
         public void pokemonCount()
         {
-
+            InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+            IList<InformatorioPokedex.Data.Pokemon> miLista = metodo.returnList();
         }
 
         public void pokemonTypeCount(string type)
         {
-
+            InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+            IList<InformatorioPokedex.Data.Pokemon> miLista = metodo.returnList();
         }
 
         public void pokemonTallest()
         {
-
+            InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+            IList<InformatorioPokedex.Data.Pokemon> miLista = metodo.returnList();
         }
 
         public void pokemonSmaller()
         {
-
+            InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+            IList<InformatorioPokedex.Data.Pokemon> miLista = metodo.returnList();
         }
 
         public void pokemonFattest()
         {
-
+            InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+            IList<InformatorioPokedex.Data.Pokemon> miLista = metodo.returnList();
         }
 
         public void pokemonLightest()
         {
-
+            InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+            IList<InformatorioPokedex.Data.Pokemon> miLista = metodo.returnList();
         }
 
         public void averageHeight()
         {
-
+            InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+            IList<InformatorioPokedex.Data.Pokemon> miLista = metodo.returnList();
         }
         
         public void averageWeight()
         {
-
+            InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+            IList<InformatorioPokedex.Data.Pokemon> miLista = metodo.returnList();
         }
 
         public void averageHeightByType(string type)
         {
-
+            InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+            IList<InformatorioPokedex.Data.Pokemon> miLista = metodo.returnList();
         }
 
         public void averageWeightByType(string type)
         {
-
+            InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+            IList<InformatorioPokedex.Data.Pokemon> miLista = metodo.returnList();
         }
 
         public void orderByAlias()
         {
-
+            InformatorioPokedex.Data.ManejoDeDatos metodo = new InformatorioPokedex.Data.ManejoDeDatos();
+            IList<InformatorioPokedex.Data.Pokemon> miLista = metodo.returnList();
         }
 
 
