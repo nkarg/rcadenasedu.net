@@ -60,6 +60,7 @@ namespace InformatorioPokedex.Bussiness
             foreach (Pokemon p in pokemos)
             {
                 Console.WriteLine(p.Name);
+                Console.WriteLine(p.Type);
             }
         }
       

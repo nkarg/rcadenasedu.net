@@ -17,6 +17,7 @@ namespace InformatorioPokedex.Application
 
             pokedex.RegisterNewPokemon("Charmander", "Char", PokemonType.Fire, 2.5, 1.33);
             pokedex.ShowPokemonLIst();
+            Console.ReadLine();
 
 
 
