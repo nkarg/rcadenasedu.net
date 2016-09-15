@@ -1,0 +1,71 @@
+//audio
+iframe.audio(src="")
+
+.key-guide
+  | arrow keys to move <br>
+  | enter = confirm <br>
+  | esc = cancel
+
+.undertale
+  .enemy-container
+    .enemy                   
+      img(src="")
+    .enemy-grid
+      .square
+      .square
+      .square
+      .square
+      .square
+      .square
+      .square
+      .square
+      .square
+      .square
+      .square
+      .square
+  ul.menu.menu-dialog
+  ul.menu.menu-hidden.menu-fight-enemy-turn
+    |insert cool fight animations here
+    .battle-heart
+  ul.menu.menu-hidden.menu-fight
+    .attack-line
+  ul.menu.menu-hidden.menu-act
+      
+  ul.menu.menu-hidden.menu-item
+    li.menu-option
+      |* Cookie
+    li.menu-option
+      |* Hotdog
+    
+  ul.menu.menu-hidden.menu-mercy
+    |* spare
+  
+  .status-bar
+    .lvl
+      |LV 1
+    .hp
+      .hp-txt
+        |HP
+      .hp-bar
+      .hp-min
+        |20
+      |/
+      .hp-max
+        |20
+  
+  ul.action
+    li.action-option-1.action-option.active(data-context="fight")
+      |FIGHT
+    li.action-option-2.action-option(data-context="act")
+      |ACT
+    li.action-option-3.action-option(data-context="item")
+      |ITEM
+    li.action-option-4.action-option(data-context="mercy")
+      |MERCY
+      
+  .restart
+    .btn
+      |Restart?
+      
+    
+  
