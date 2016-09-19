@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi Web</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<style type="text/css">
+		.row
+		{
+			padding: 15px;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+
+        var a = ['','one ','two ','three ','four ', 'five ','six ','seven ','eight ','nine ','ten ','eleven ','twelve ','thirteen ','fourteen ','fifteen ','sixteen ','seventeen ','eighteen ','nineteen ']; 
+        var b = ['', '', 'twenty','thirty','forty','fifty', 'sixty','seventy','eighty','ninety']; 
+        function inWords (num) { 
+        	if ((num = num.toString()).length > 9) return 'overflow'; 
+        	n = ('000000000' + num).substr(-9).match(/^(\d{2})(\d{2})(\d{2})(\d{1})(\d{2})$/); if (!n) return; var str = '';
+        	str += (n[1] != 0) ? (a[Number(n[1])] || b[n[1][0]] + ' ' + a[n[1][1]]) + 'crore ' : ''; 
+        	str += (n[2] != 0) ? (a[Number(n[2])] || b[n[2][0]] + ' ' + a[n[2][1]]) + 'lakh ' : ''; 
+        	str += (n[3] != 0) ? (a[Number(n[3])] || b[n[3][0]] + ' ' + a[n[3][1]]) + 'thousand ' : ''; 
+        	str += (n[4] != 0) ? (a[Number(n[4])] || b[n[4][0]] + ' ' + a[n[4][1]]) + 'hundred ' : ''; 
+        	str += (n[5] != 0) ? ((str != '') ? 'and ' : '') + (a[Number(n[5])] || b[n[5][0]] + ' ' + a[n[5][1]]) + 'only ' : ''; 
+        	return str; }
+        
+        function Change(){
+        	var valor = document.getElementById("txtField").value;
+        	document.getElementById('pText').innerHTML=inWords(valor);
+        }
+
+        function Compare(){
+        	var firstInput = document.getElementById("txtField1").value; 
+        	var secondInput = document.getElementById("txtField2").value; 
+        	if(firstInput === secondInput) { alert("True"); } 
+        	else if(firstInput > secondInput) { alert("False"); }
+        	else { alert("False"); }
+ 		} 
+
+ 		function CantChar(){
+
+	 		var temp = document.getElementById("txtField3").innerHTML;
+	 		var char = document.getElementById("txtField4").value;
+	 		var regex = new RegExp(char,"gi");
+			var count = (temp.match(regex) || []).length;
+			document.getElementById('pText1').innerHTML=count;
+        }
+
+        function endDivs(){
+        	var html = document.getElementById("texthtml").value; 
+        	var div = document.createElement("div"); 
+        	div.innerHTML = html; 
+        	var text = div.textContent || div.innerText || "";
+        	document.getElementById("texthtml").value=text;
+
+        }
+
+	    function webGenerate(){
+	        var url = document.getElementById("inputlg").value;
+	        var protocol = url.slice(0, url.indexOf(":"));
+	        var cut1 = url.slice(0, url.indexOf("/") + 2);
+	        var server = url.replace(cut1,"");
+	        var server = server.slice(0, server.indexOf("/"));
+	        var cut2 = url.replace(cut1,"");
+	        var resource = cut2.slice(cut2.indexOf("/") + 1);
+
+	        var miweb = 
+	        {
+	        	proto: protocol, 
+	        	serv: server, 
+	        	reso: resource
+        	};
+
+        	document.getElementById("link").innerHTML=miweb.serv;
+        }
+
+        
+        var template = {name: document.createElement('strong'), age: document.createElement('span')}
+        
+        function generateList(array) {
+	    var list = document.createElement('ul');
+	    for(var i = 0; i < array.length; i++) {
+	        var item = document.createElement('li');
+	        item.appendChild(document.createTextNode(array[i]));
+	        list.appendChild(item);
+	    }
+	    return list;
+		}
+
+
+
+	</script>
+
+	<div class="container">
+	<div class="row">
+    <div class="col-md-12">
+	<div class="panel panel-primary">
+  	<div class="panel-heading">
+    <h3 class="panel-title">Converts a number in the range [0...999]</h3>
+ 	</div>
+  	<div class="panel-body">
+    <input id="txtField" type="text" name="Numeros" maxlength='3'> <input type="button" value="Convertir" onClick=" Change(); ">
+    <p id="pText">The number is</p>
+  	</div>
+	</div>
+    </div></div>
+    <div class="row">
+    <div class="col-md-12">
+    <div class="panel panel-success">
+ 	<div class="panel-heading">
+    <h3 class="panel-title">Compares two char arrays lexicographically</h3>
+ 	</div>
+ 	<div class="panel-body">
+    <input id="txtField1" type="text" name="Input1"><input id="txtField2" type="text" name="Input1"> <input type="button" value="Comparar" onClick=" Compare(); ">
+  	</div>
+	</div>
+    </div></div>
+    <div class="row">
+    <div class="col-md-12">
+    <div class="panel panel-info">
+ 	<div class="panel-heading">
+    <h3 class="panel-title">Finds all the occurrences of word in a text</h3>
+ 	</div>
+  	<div class="panel-body">
+     <p id="txtField3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <input id="txtField4" type="char" name="Caracter" maxlength='1'>
+    <button type="button" class="btn btn-default" aria-label="Left Align" onClick=" CantChar(); ">
+  	<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+	</button>
+    <p id="pText1">The number of ocurrences are: </p>
+ 	</div>
+	</div>
+    </div></div>
+    <div class="row">
+    <div class="col-md-12">
+    <div class="panel panel-warning">
+ 	<div class="panel-heading">
+    <h3 class="panel-title">Extracts the content of a html page given as text</h3>
+  	</div>
+  	<div class="panel-body">
+    <div class="row">
+    <div class="col-md-8"><textarea class="form-control" rows="3" id="texthtml"></textarea></div>
+    <div class="col-md-4">
+    	<button type="button" class="btn btn-default" aria-label="Left Align" onClick=" endDivs(); ">
+  		<span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
+		</button></div>
+	</div>
+  	</div>
+	</div>
+	</div></div>
+	<div class="row">
+    <div class="col-md-12">
+	<div class="panel panel-danger">
+  	<div class="panel-heading">
+    <h3 class="panel-title">Parses an URL address</h3>
+  	</div>
+  	<div class="panel-body">
+    <div class="form-group">
+    <div class="row">
+    <div class="col-md-10">
+    <label for="inputlg">Enter Link Here</label>
+    <input class="form-control input-lg" id="inputlg" type="text">
+    <a href="url" id="link"></a>
+  	</div>
+  	<div class="col-md-2">
+  	<button type="button" class="btn btn-info" onclick=" webGenerate(); ">GenerateLink</button>
+ 	</div>
+ 	</div>
+	</div>
+	</div>
+	</div>
+	</div></div>
+	<div class="row">
+    <div class="col-md-12">
+	<div class="panel panel-primary">
+  	<div class="panel-heading">
+    <h3 class="panel-title">Creates a HTML</h3>
+  	</div>
+ 	<div class="panel-body">
+    Panel content
+  	</div>
+	</div>
+	</div></div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
