@@ -1,0 +1,11 @@
+c:\users\informatorio\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+c:\users\informatorio\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+c:\users\informatorio\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+c:\users\informatorio\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+c:\users\informatorio\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\Clases.dll
+c:\users\informatorio\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\bin\Debug\Clases.pdb
+c:\users\informatorio\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+c:\users\informatorio\documents\visual studio 2015\Projects\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+D:\nkargNET\Back End\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+D:\nkargNET\Back End\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+D:\nkargNET\Back End\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
