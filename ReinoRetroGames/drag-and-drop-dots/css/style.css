@@ -1,0 +1,85 @@
+a, a:hover, a:visited, a:active {
+  text-decoration: none;
+  color: #333;
+}
+
+a.redraw {
+  display: block;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  color: #333;
+  text-decoration: none;
+  font-size: 30px;
+  display: none;
+}
+
+.dot {
+  top: -100px;
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+  cursor: hand;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+  border-radius: 200px;
+  -webkit-box-shadow:  0px 0px 2px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow:  0px 0px 2px 0px rgba(0, 0, 0, 0.05);
+  box-shadow:  0px 0px 2px 0px rgba(0, 0, 0, 0.05);
+}
+.dot:after {
+  content: "";
+  display: block;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+  border-radius: 200px;
+}
+.dot.up {
+  cursor: move;
+  z-index: 100;
+}
+.dot.merging {
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+}
+.dot.merging.od {
+  -webkit-transition: all 0.2s linear 0s;
+  -moz-transition: all 0.2s linear 0s;
+  -o-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+  z-index: 100;
+}
+.dot.grow {
+  z-index: 100;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  -o-border-radius: 1000px;
+  border-radius: 1000px;
+}
+.dot .overlap {
+  position: absolute;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+  border-radius: 200px;
+  -webkit-transition: background-color 1.5s linear 0s;
+  -moz-transition: background-color 1.5s linear 0s;
+  -o-transition: background-color 1.5s linear 0s;
+  transition: background-color 1.5s linear 0s;
+}
+
+.msg {
+  position: fixed;
+  z-index: 200;
+  text-shadow: 0px 0px 2px rgba(100, 100, 100, 0.5);
+}

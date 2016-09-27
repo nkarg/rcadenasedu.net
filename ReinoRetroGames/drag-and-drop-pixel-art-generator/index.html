@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Drag and Drop Pixel Art Generator</title>
+    
+    
+    
+    
+        <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #eee linear-gradient(-45deg, rgba(255, 255, 255, .3) 50%, transparent 50%) 0 0 / 80px 80px;
+  margin: 60px 20px;
+  font-family: 'Arimo', sans-serif;
+  color: #777;
+}
+.label {
+  float: left;
+  width: 290px;
+  margin-top: -6px;
+  text-align: right;
+}
+h1 {
+  margin: 0;
+  font-size: 60px;
+  line-height: 1;
+  color: #7e759e;
+}
+h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1;
+  color: #bbb;
+}
+.content {
+  width: 620px;
+  min-height: 130px;
+  margin-left: 320px;
+  padding: 0 0 40px 30px;
+  border-left: solid 2px #ddd;
+  text-align: left;
+}
+
+.drop .content {
+  min-height: 90px;
+  padding-bottom: 0;
+}
+.drop-zone {
+  position: relative;
+  float: left;
+  width: 110px;
+  height: 110px;
+  border: dashed 5px #777;
+  border-radius: 20px;
+  background-color: #ddd;
+}
+.drop-over {
+  background-color: #fff;
+}
+.drop-placeholder {
+  padding: 16px 0;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.drop-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: none;
+}
+.drop-help {
+  margin-left: 140px;
+  text-align: center;
+  white-space: nowrap;
+}
+.drop-from-desktop {
+  font-size: 30px;
+}
+.drop-from-samples {
+  font-size: 20px;
+  color: #bbb;
+}
+.drop-samples {
+  background-color: #ddd;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px 0 6px;
+  text-align: center;
+}
+.drop-samples img {
+  margin: 0 24px;
+  cursor: pointer;
+}
+
+.scale {
+  display: none;
+}
+.scale-slider {
+  width: 100%;
+  margin: 0;
+}
+.scale-labels {
+  font-size: 20px;
+}
+.scale-min {
+  float: left;
+}
+.scale-max {
+  float: right;
+}
+
+.preview {
+  display: none;
+}
+.preview-box {
+  max-width: 100%;
+  max-height: 480px;
+  overflow: auto;
+  font-size: 0;
+}
+
+.css {
+  display: none;
+}
+.css .content {
+  min-height: 90px;
+  padding-bottom: 0;
+}
+.css-output {
+  width: 100%;
+  height: 200px;
+  border: solid 1px #ddd;
+}
+
+.error {
+  color: #9e7575;
+}
+.loaded .drop .content {
+  min-height: 130px;
+  padding-bottom: 40px;
+}
+.loaded .scale,
+.loaded .preview,
+.loaded .css {
+  display: block;
+}
+    </style>
+
+    
+        <script src="js/prefixfree.min.js"></script>
+
+    
+  </head>
+
+  <body>
+
+    <section class="drop">
+  <div class="label">
+    <h1>DROP</h1>
+    <h2>max 64px &times; 64px</h2>
+  </div>
+  <div class="content">
+    <div class="drop-zone">
+      <div class="drop-placeholder">
+        DROP IMAGE HERE
+      </div>
+      <img class="drop-image">
+    </div>
+    <div class="drop-help">
+      <div class="drop-from-desktop">
+        Drag an image from your desktop
+      </div>
+      <div class="drop-from-samples">
+        (or just click on one of these guys)
+      </div>
+      <div class="drop-samples">
+        <img src="data:image/gif;base64,R0lGODlhEAAYALMLAJzWSjFzMQAYe4Sl1s5rOf/GjP//3sa1UlpSjHtSCBgYGP///wAAAAAAAAAAAAAAACH5BAEAAAsALAAAAAAQABgAAAShcMmlqKozS5V6xxp1HMlhjODEkSabpMrYjbKCgPFbzgky3BuSolAgJAwfIeVTMBhbntdSQSgaS6fPRiEoCL6ElXI4JDovnFKFXA4rBvDYhVi4BAJvg96ARtwCAIFvBG4vVHWBgXhVF1JUF343F4w4fAhVbjZAFAaSRGGedZx+CmeakhedpJGnBgOprHCSfq6waKU/kLVvOH6vqRg4uGh8EhEAOw==">
+        <img src="data:image/gif;base64,R0lGODlhEAAYALMLAP//3kohAGNjjP+9e1JKOc57Qpx7WntCKaWlcyE5YxgYGP///wAAAAAAAAAAAAAAACH5BAEAAAsALAAAAAAQABgAAASOcMlJa1VYLWy3QghBgIRGfeGIAGBiSgqgDKOauCei3Pp9Z7ASb5cYKQQCE6aA0YUyONggIMsor9NBApm07AYD5vZ3cQ12gkQhejIoDLeCnA0zAOAFwPwFgw70ZG0GB2BidBuDB3JWXgeOGC58Jy5jkScYBz+VBy9vnJkYBomcEwqfHKZAl26lg5J9rRwLEQA7">
+        <img src="data:image/gif;base64,R0lGODlhEAAYAKIHAP+UvQApjP85c4xzjJylzv///xgYGP///yH5BAEAAAcALAAAAAAQABgAAANteLrc/jDK6Yw5F9psQF4WVmxYRVhCMYSVQRQpIX9gYd82jb34vTKGHu4EFN6INaOKZhgUAtCA7/IJCgkDgUGLSdl4BaxA4FFsseAZmbp5WW5bT9Dinr1W8nDzlBu4qWEDflZNcyAbdDMsGosLCQA7">
+        <img src="data:image/gif;base64,R0lGODlhEAAYALMLAAAYe5zWSjFzMYSl1lpSjHtSCP//3sa1Us5rOf/GjBgYGP///wAAAAAAAAAAAAAAACH5BAEAAAsALAAAAAAQABgAAASXcMlJq1VqYTvxKV+xVYp4GKBxHFm3vm8hkvIXfq1bIDwSjp2EIZFAyEosikJIVBgxiqQEk4AiqrwcBlAEGK7O6hRL9EKdCOp3WcQM09XlGkpgwzHgYbXeI6Q1CQREVQICGAR1HX5ZdYhAU1ADCgQDAwY5GpYGkhoEBptampyTn5yQiKMKlqYKAgGFZwKOLWe1ra6GHB21EQA7">
+        <img src="data:image/gif;base64,R0lGODlhEAAYALMLAP//3lpzvUIphMZ7Y5RaAP/OhDFKUjExMUJCQpy1pRgYGP///wAAAAAAAAAAAAAAACH5BAEAAAsALAAAAAAQABgAAASWcMkplbU0W5QSQkpWcQnQeSGlfMB3oqonm2e6rIkyDKycWqhBoYAwfUKKzlFITB6dF0vhYgRKB7qhAJDMrRSHApYpmMIUhjBWp5hyMOjAAUy4vOsVA/hQjx70Exd9QwdygIEKgwWFcxUWB3wWO1E3kHx9emiHe30WmZkVkZ4BUQakN3hxmxcVjmilBIc3BrFRtq6sIgsRADs=">
+        <img src="data:image/gif;base64,R0lGODlhEAAYALMLAAAxMb2UAM6E/4Ra3v//3s5rOYSthJQAAP/GjClSORgYGP///wAAAAAAAAAAAAAAACH5BAEAAAsALAAAAAAQABgAAASbcEmp6qpjqElVMkmYKIOwUUYapiA5Th7xpURrnB5ryKpyU7JCiGfDgRCymshnTCCHoNGLMkJUQlbPiVJAIACErmdaUXS/hLLlIhBovIgCqb1VuDUFecbEqZjgViZbF1YBB4cHAQpWfXFzbmaMXAdmiAdylzhiXYeOjlxZYQVpi3IwFQdxnGUcFIaIiq0wiYeGg32Wh7d9igqxHBEAOw==">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="scale">
+  <div class="label">
+    <h1>SCALE</h1>
+    <h2>&times 10</h2>
+  </div>
+  <div class="content">
+    <input class="scale-slider" type="range" min="1" max="20" step="1" value="10">
+    <div class="scale-labels">
+      <div class="scale-min">smaller</div>
+      <div class="scale-max">bigger</div>
+    </div>
+  </div>
+</section>
+<section class="preview">
+  <div class="label">
+    <h1>PREVIEW</h1>
+    <h2></h2>
+  </div>
+  <div class="content">
+    <div class="preview-box">
+      <div class="preview-anchor"></div>
+    </div>
+  </div>
+</section>
+<section class="css">
+  <div class="label">
+    <h1>CSS</h1>
+    <h2></h2>
+  </div>
+  <div class="content">
+    <textarea class="css-output" readonly></textarea>
+  </div>
+</section>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
