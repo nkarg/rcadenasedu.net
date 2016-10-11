@@ -1,0 +1,77 @@
+body {
+  background: #0a0a0a;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  position: relative;
+  top: 50px; 
+  opacity: 0;
+  animation: fadeIn 3s linear 17s forwards;
+}
+
+h1 {
+  color: white;
+}
+.perspective {
+  perspective: 800px; 
+}
+
+.space {
+  position: relative;
+  margin: auto;
+  transform-style: preserve-3d;
+  width: 1500px; height: 1500px;
+  animation: spin 20s linear infinite;
+  -webkit-animation: spin 20s linear forwards;
+  /*background: green; */
+}
+
+.star {
+  width: 3px; height: 3px;
+  
+  background: white;
+  position: absolute;
+  box-shadow: 0 0 20px 1px white;
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+  }
+  80% {
+    -webkit-transform: rotateX(180deg) rotateY(180deg);
+  }
+    100% {
+    -webkit-transform: translateY(1000px) rotateX(180deg) rotateY(180deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: translateY(0px) rotateX(0deg) rotateY(0deg);
+  }
+  80% {
+    -webkit-transform: translateY(0px) rotateX(180deg) rotateY(180deg);
+  }
+  85% {
+    -webkit-transform: translateY(-20px) rotateX(180deg) rotateY(180deg);
+  }
+  100% {
+    -webkit-transform: translateY(1200px) rotateX(180deg) rotateY(180deg);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
