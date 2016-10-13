@@ -1,0 +1,28 @@
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.dll.config
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.dll
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.pdb
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Data\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Data\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.dll
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.pdb
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.dll.config
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.dll
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.pdb
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Data\bin\Debug\EntityFramework.dll
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Data\bin\Debug\EntityFramework.xml
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.csprojResolveAssemblyReference.cache
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.dll
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.dll.config
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Data\bin\Debug\EntityFramework.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Data\bin\Debug\EntityFramework.xml
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.pdb

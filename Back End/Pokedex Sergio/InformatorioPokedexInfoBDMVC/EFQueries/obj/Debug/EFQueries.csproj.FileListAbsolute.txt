@@ -1,0 +1,24 @@
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\bin\Debug\EFQueries.exe.config
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\bin\Debug\EFQueries.exe
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\bin\Debug\EFQueries.pdb
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\bin\Debug\EntityFramework.dll
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\bin\Debug\InformatorioPokedex.Data.dll
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\bin\Debug\InformatorioPokedex.Data.pdb
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\bin\Debug\EntityFramework.xml
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\obj\Debug\EFQueries.csprojResolveAssemblyReference.cache
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\obj\Debug\EFQueries.exe
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\obj\Debug\EFQueries.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\EFQueries\bin\Debug\EFQueries.exe.config
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\EFQueries\bin\Debug\EFQueries.exe
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\EFQueries\bin\Debug\EFQueries.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\EFQueries\bin\Debug\EntityFramework.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\EFQueries\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\EFQueries\bin\Debug\InformatorioPokedex.Data.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\EFQueries\bin\Debug\InformatorioPokedex.Data.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\EFQueries\bin\Debug\EntityFramework.xml
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\EFQueries\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\EFQueries\obj\Debug\EFQueries.csprojResolveAssemblyReference.cache
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\EFQueries\obj\Debug\EFQueries.exe
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\EFQueries\obj\Debug\EFQueries.pdb

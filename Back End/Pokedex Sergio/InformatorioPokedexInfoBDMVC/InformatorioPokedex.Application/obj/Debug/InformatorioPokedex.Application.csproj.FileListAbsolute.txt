@@ -1,0 +1,45 @@
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe.config
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.pdb
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Bussiness.dll
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Data.dll
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Bussiness.pdb
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Data.pdb
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.exe
+C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.pdb
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe.config
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.exe
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.pdb
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.pdb
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\bin\Debug\EntityFramework.dll
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Bussiness.dll
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Data.dll
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Bussiness.pdb
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Data.pdb
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\bin\Debug\EntityFramework.xml
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.csprojResolveAssemblyReference.cache
+G:\Informatorio\Visual\InformatorioPokedex(Profes)\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe.config
+G:\Informatorio\Visual\InformatorioPokedex(Profes)\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.exe
+G:\Informatorio\Visual\InformatorioPokedex(Profes)\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe.config
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\bin\Debug\EntityFramework.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Bussiness.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Data.dll
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Bussiness.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Data.pdb
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\bin\Debug\EntityFramework.xml
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.csprojResolveAssemblyReference.cache
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.exe
+C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.pdb
