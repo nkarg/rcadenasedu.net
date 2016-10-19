@@ -7,3 +7,12 @@ C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\Informato
 C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Bussiness\obj\Debug\InformatorioPokedex.Bussiness.csprojResolveAssemblyReference.cache
 C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Bussiness\obj\Debug\InformatorioPokedex.Bussiness.dll
 C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Bussiness\obj\Debug\InformatorioPokedex.Bussiness.pdb
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Bussiness\bin\Debug\InformatorioPokedex.Bussiness.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Bussiness\bin\Debug\InformatorioPokedex.Bussiness.pdb
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Bussiness\bin\Debug\InformatorioPokedex.Data.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Bussiness\bin\Debug\EntityFramework.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Bussiness\bin\Debug\InformatorioPokedex.Data.pdb
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Bussiness\bin\Debug\EntityFramework.xml
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Bussiness\obj\Debug\InformatorioPokedex.Bussiness.csprojResolveAssemblyReference.cache
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Bussiness\obj\Debug\InformatorioPokedex.Bussiness.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Bussiness\obj\Debug\InformatorioPokedex.Bussiness.pdb

@@ -26,3 +26,13 @@ C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Ser
 C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.dll
 C:\Users\Informatorio\Documents\Visual Studio 2015\Projects\Back End\Pokedex Sergio\InformatorioPokedexInfoBDQueries\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.pdb
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBDMVC\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.dll.config
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBDMVC\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBDMVC\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.pdb
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBDMVC\InformatorioPokedex.Data\bin\Debug\EntityFramework.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBDMVC\InformatorioPokedex.Data\bin\Debug\EntityFramework.SqlServer.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBDMVC\InformatorioPokedex.Data\bin\Debug\EntityFramework.xml
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBDMVC\InformatorioPokedex.Data\bin\Debug\EntityFramework.SqlServer.xml
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBDMVC\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.csprojResolveAssemblyReference.cache
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBDMVC\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBDMVC\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.pdb

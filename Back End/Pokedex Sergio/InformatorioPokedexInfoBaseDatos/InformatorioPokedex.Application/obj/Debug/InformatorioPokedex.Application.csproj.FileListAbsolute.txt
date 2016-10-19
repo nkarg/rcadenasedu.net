@@ -15,3 +15,17 @@ C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\Informato
 D:\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe.config
 D:\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.exe
 D:\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.pdb
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe.config
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.exe
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.pdb
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.exe
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Application.pdb
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\bin\Debug\EntityFramework.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\bin\Debug\EntityFramework.SqlServer.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Bussiness.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Data.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Bussiness.pdb
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\bin\Debug\InformatorioPokedex.Data.pdb
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\bin\Debug\EntityFramework.xml
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\bin\Debug\EntityFramework.SqlServer.xml
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Application\obj\Debug\InformatorioPokedex.Application.csprojResolveAssemblyReference.cache

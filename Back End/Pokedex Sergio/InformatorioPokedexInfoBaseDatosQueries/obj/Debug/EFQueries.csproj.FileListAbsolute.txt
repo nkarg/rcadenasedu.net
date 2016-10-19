@@ -10,3 +10,6 @@ C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\b
 C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\obj\Debug\EFQueries.csprojResolveAssemblyReference.cache
 C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\obj\Debug\EFQueries.exe
 C:\Users\Informatorio\Desktop\IronKiller\InformatorioPokedex(Profes)\EFQueries\obj\Debug\EFQueries.pdb
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatosQueries\bin\Debug\EFQueries.exe.config
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatosQueries\obj\Debug\EFQueries.exe
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatosQueries\obj\Debug\EFQueries.pdb

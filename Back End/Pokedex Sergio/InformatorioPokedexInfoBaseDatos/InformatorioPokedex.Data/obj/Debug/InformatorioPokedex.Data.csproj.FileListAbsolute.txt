@@ -7,3 +7,13 @@ C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\Informato
 C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.dll
 C:\Users\Administrador\Desktop\ClasesInfo-26-08-16\InformatorioPokedex\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.pdb
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.dll.config
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Data\bin\Debug\InformatorioPokedex.Data.pdb
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Data\bin\Debug\EntityFramework.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Data\bin\Debug\EntityFramework.SqlServer.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Data\bin\Debug\EntityFramework.xml
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Data\bin\Debug\EntityFramework.SqlServer.xml
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.csprojResolveAssemblyReference.cache
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.dll
+B:\NkRep\nkargNET\Back End\Pokedex Sergio\InformatorioPokedexInfoBaseDatos\InformatorioPokedex.Data\obj\Debug\InformatorioPokedex.Data.pdb

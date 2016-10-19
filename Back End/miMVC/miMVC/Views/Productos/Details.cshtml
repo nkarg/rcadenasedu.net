@@ -1,0 +1,42 @@
+﻿@model miMVC.Models.Producto
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Producto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombreProducto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombreProducto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.precioProducto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.precioProducto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaDeVencimiento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaDeVencimiento)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.productoID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
