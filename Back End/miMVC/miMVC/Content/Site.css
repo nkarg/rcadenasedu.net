@@ -37,3 +37,15 @@ a {
 .navbar-inverse .navbar-nav > li > a {
     color: #89b18a;
 }
+
+input, button, select, textarea {
+    color: darkcyan;
+}
+
+body {
+    color: #5cb85c;
+}
+
+button, input, select[multiple], textarea {
+    background-color: #dff0d8;
+}
