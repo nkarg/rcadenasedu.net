@@ -15,7 +15,13 @@
             @Html.DisplayNameFor(model => model.nombreProducto)
         </th>
         <th>
+            IconoProducto
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.precioProducto)
+        </th>
+        <th>
+            IconoCosto
         </th>
         <th></th>
     </tr>
@@ -26,7 +32,13 @@
             @Html.DisplayFor(modelItem => item.nombreProducto)
         </td>
         <td>
+            <img src="@item.productoImg" class="img-responsive1" alt="Responsive image">
+        </td>
+        <td>
             @Html.DisplayFor(modelItem => item.precioProducto)
+        </td>
+        <td>
+            <img src="@item.precioImg" class="img-responsive1" alt="Responsive image">
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.productoID }) |

@@ -49,3 +49,9 @@ body {
 button, input, select[multiple], textarea {
     background-color: #dff0d8;
 }
+
+.img-responsive1 {
+    display: block;
+    height: auto;
+    max-width: 6%;
+}
